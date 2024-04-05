@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anfitriona de AIRBNB</title>
+    <link rel="icon" href="img/valeriapelaez.jpeg"> <!--icono--> 
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/ff35e26f2e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+</head>
+
+<body>
+
+    <!--------HEADER------------->
+   <header id="header" class="animation-bottom">
+
+        <a href="index.html"><h2 class="nombre">Valeria Pelaez</h2></a>
+        
+
+        <input type="checkbox" id="menu">
+        <label class="label-menu" for="menu">
+            <i class="fa-solid fa-bars fa-xl menu-icono" style="color: #ffffff;"></i>
+        </label>
+
+        <ul class="menu">
+            <a href="#about"><li class="item">Sobre Mí</li></a>
+            <a href="#servicios"><li class="item">Servicios</li></a>
+            <a href="#habilidades"><li class="item">Habilidades</li></a>
+            <a href="#referencias"><li class="item">Referencias</li></a>
+            <a href="#contacto"><li class="item">Contacto</li></a>
+        </ul>
+
+   </header> 
+
+
+   <!-----------INTRO------------->
+   <main>
+        <div class="intro animation-left">
+            <h3>Valeria Pelaez</h3>
+            <div class="linea_nombre"></div>
+            <h1>ANFITRIONA DE AIRBNB</h1>
+        </div>
+
+        <button class="c-button c-button--gooey">Contactame
+            <div class="c-button__blobs">
+            <div></div>
+            <div></div>
+            <div></div>
+            </div>
+        </button>
+          <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+                <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
+                <feBlend in2="goo" in="SourceGraphic"></feBlend>
+              </filter>
+            </defs>
+          </svg>
+   </main>
+
+   <!----------ABOUT-------------->
+   <div id="about"></div>
+   <div class="about" >
+        <div class="about_nombre_foto animation-left">
+            <div class="about_nombre"><h3>HOLA, SOY <br> VALERIA</h3></div>
+            <div class="about_foto"><img src="img/Captura.PNG" alt=""></div>
+        </div>
+        <div class="about_texto animation-top">
+            <p>Soy una persona apasionada por el servicio al
+                cliente y la gestión eficiente de propiedades.
+                Con habilidades organizativas excepcionales,
+                me comprometo a brindar un servicio integral y
+                personalizado a cada propietario. <br><br>
+                Mi enfoque proactivo garantiza que sus
+                propiedades estén en las mejores manos,
+                permitiéndoles obtener ingresos por medio de
+                la plataforma de Airbnb. <br><br>
+                ¡Confíe en mí para cuidar de sus propiedades
+                como si fueran mías y juntos alcanzaremos el
+                éxito!
+            </p>
+        </div>
+
+        <div id="servicios"></div>
+   </div>
+
+   <!---------SERVICIOS----------->
+
+   
+   <div class="servicios">
+        <div class="servicios_title animation-left">
+            <h3>SERVICIOS</h3>
+        </div>
+        <div class="servicios_card ">
+            <div class="cards animation-left">
+                <img src="img/img1.PNG" alt="">
+                <h4>GESTION INTEGRAL DE PROPIEDAD</h4>
+                <ul>
+                    <li>Creación y optimización del anuncio.</li>
+                    <li>Comunicación 24/7 con los Huéspedes.</li>
+                    <li>Coordinación de la limpieza.</li>
+                </ul>
+            </div>
+            <div class="cards animation-left">
+                <img src="img/img2.PNG" alt="">
+                <h4>RESOLUCIÓN DE PROBLEMAS</h4>
+                <ul>
+                    <li>Mantener la propiedad en óptimas condiciones.</li>
+                    <li>Coordinación de cualquier reparación o mantenimiento.</li>
+                    <li>Resolver problemas durante la estancia del huésped.</li>
+                </ul>
+            </div>
+            <div class="cards animation-left">
+                <img src="img/img3.PNG" alt="">
+                <h4>INFORMES FINANCIEROS</h4>
+                <ul>
+                    <li>Informes detallados sobre los ingresos y gastos.</li>
+                    <li>Control preciso de las finanzas.</li>
+                    <li>Total transparencia y confianza en la gestión de tu inversión.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    
+    <!----------HABILIDADES-------->
+    
+    <div id="habilidades"></div>
+   <section class="habilidades">
+        <h3 class="animation-left">HABILIDADES</h3>
+        <ul class="animation-left">
+            <li>Comunicación</li>
+            <li>Organización y Gestion del tiempo</li>
+            <li>Adaptabilidad y Flexibilidad</li>
+            <li>Conocimientos Contables</li>
+            <li>Publicidad</li>
+        </ul>
+        <div class="habilidades_canvas animation-top"> 
+            <canvas id="myChart" width="500" height="300"></canvas>
+        </div>
+
+    </section>
+    
+    <!-----------REFERENCIAS------->
+    <div id="referencias"></div>
+   <div class="referencias">
+        <h3 class="animation-left">REFERENCIAS</h3>
+        <div class="referencias_card ">
+            <div class="ref_card animation-left">
+                <img src="img/alexandra.PNG" alt="">
+                <h4>ALEXANDRA GRANADOS</h4>
+                <p>Fundación Alegra<br>
+                Ig: missalegra.studio</p>
+            </div>
+            <div class="ref_card animation-left">
+                <img src="img/sergio.PNG" alt="">
+                <h4>SERGIO GARCIA</h4>
+                <p>Ingeniero en Sistemas<br>
+                Ig: sgarcia.00</p>
+            </div>
+            <div class="ref_card animation-left">
+                <img src="img/foto-horacio.jpeg" alt="">
+                <h4>HORACIO PELAEZ</h4>
+                <p>Contador e Ingeniero en Sistemas<br>
+                Ig: horacio_pelaez_suarez</p>
+            </div>
+        </div>
+
+    </div>  
+    
+    <!-----------CONTACTO---------->
+    
+    <div id="contacto"></div>
+   <div class="contacto animation-left">
+
+        <form action="https://formsubmit.co/pbellyta@gmail.com" method="POST">
+            <h3>CONTACTAME</h3>
+
+            <div class="input-group">
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="name" placeholder="Nombre" required>
+                <label for="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <label for="message">Mensaje:</label>
+                <textarea name="message" id="message" rows="5" cols="30"  placeholder="Tu mensaje..." required></textarea>
+
+                <input class="btn" type="submit" value="Enviar">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                <input type="hidden" name="_captcha" value="false">
+            </div>
+        </form>
+
+   </div>
+
+   <!-----------FOOTER------------>
+   <footer>
+        <div class="footer">
+            <ul>
+                <li><a href="https://www.instagram.com/belly_pelaez" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+        <div class="derechos_autor">
+            <p>Copyright &copy; Sergio García, 2024 </p>
+        </div>
+   </footer>
+
+   
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js" integrity="sha512-dnUg2JxjlVoXHVdSMWDYm2Y5xcIrJg1N+juOuRi0yLVkku/g26rwHwysJDAMwahaDfRpr1AxFz43ktuMPr/l1A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
+   <script src="js/chart.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/animaciones.js"></script>
+
+</body>
+</html>
